@@ -2,33 +2,53 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body,html {
-    margin: 0;
-    padding: 0;
-}
-* {
-    box-sizing: border-box;
-}
-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-img {
-  width: 60%;
-}
-body {
-  background-color: #021631;
-}
-</style>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<div>
-<img src="midnight.png" alt='"Above" Twilight' style="width:75%;">
+<div class="header">
+    <a href="">Contact Us</a>
+    <a href="">Streamers</a>
+    <a href="">Legal</a>
+    <a href="">Placeholder</a>
+  <a  href="" style="padding: 0px;background-color: transparent;float: left;" ><img src="logo.png"></a>
 </div>
+<div class="advert" id = "adcon">
+</div>
+<div class="webContent">
+<div class="contContainer">
+<div class="contChild">
+<a href="">
+<div href="" class="sel">
+<img src="ourMission.png" style="height:100%; width:100%;">
+<h1>┃ About</h1>
+</div>
+</a>
+<br />
+<a href="">
+<div class="sel">
+<img src="ourMission.png" style="height:100%; width:100%;">
+<h1>┃ Pantheon</h1>
+</div>
+</a>
+</div>
+</div>
+
+
+</div>
+
 </body>
 </html>
+<script>
+function isMobile() {
+    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    if (/windows phone/i.test(userAgent) || /android/i.test(userAgent) || /iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        return true;
+    } else {
+    return false;
+	}
+}
+if (isMobile()) {
+window.location.assign("mobile.html");
+}
+</script>

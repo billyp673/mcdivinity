@@ -1,0 +1,93 @@
+body { 
+  margin: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #282828;
+  color: #D3D3D3
+}
+
+.header {
+  overflow: hidden;
+  padding: 20px 20px;
+    background-color: red;
+	padding-left:10px
+}
+
+
+.header a {
+  background-color: #3D3D3D;
+  float: left;
+  color: #D3D3D3;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  max-height: 55px;
+  margin-left: 10px;
+  float: right;
+  
+}
+.header img {
+  height: 75px;
+  margin:-10px;
+}
+
+.header a:hover {
+  background-color: #545454;
+}
+
+.webContent {
+  background-color: #545454;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+
+}
+.contContainer {
+  float: right;
+  direction: rtl;
+  overflow-y: hidden;
+    width: -webkit-calc(100% - 320px);
+    width:    -moz-calc(100% - 320px);
+    width:      -o-calc(100% - 320px);
+    width:         calc(100% - 320px);
+    height: -webkit-calc(100vh - 143px);
+    height:    -moz-calc(100vh - 143px);
+    height:      -o-calc(100vh - 143px);
+    height:         calc(100vh - 143px);
+}
+.contChild {
+  height: auto;
+  width: 100%;
+  direction: ltr;
+}
+.contChild a {
+  text-decoration: none;
+  color: #D3D3D3;
+}
+.advert {
+    height: -webkit-calc(100vh - 143px);
+    height:    -moz-calc(100vh - 143px);
+    height:      -o-calc(100vh - 143px);
+    height:         calc(100vh - 143px);
+  width: 300px;
+  background-color: #ffffff;
+  top:128px;
+  left:20px;
+  float:left;
+ position: fixed; 
+}
+.sel {
+width: 100%;
+    height: -webkit-calc((100vh - 160px)/2);
+    height:    -moz-calc((100vh - 160px)/2);
+    height:      -o-calc((100vh - 160px)/2);
+    height:         calc((100vh - 160px)/2);
+position: relative;
+}
+h1 {
+position:absolute;
+bottom: 20px;
+left: 50px;
+font-size: 5vh;
+}
