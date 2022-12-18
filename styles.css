@@ -4,6 +4,7 @@ body {
   background-color: #282828;
   color: #D3D3D3;
 background-image: url("backgrounds/back1.png");
+background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -12,7 +13,13 @@ background-image: url("backgrounds/back1.png");
 .header {
   overflow: hidden;
   padding: 20px 20px;
-    background-color: red;
+    background-color: gray;
+  background-image: url("banner.png");
+  background-size: contain;
+  -webkit-image-rendering: pixelated;  /* For Safari and Chrome */
+  image-rendering: pixelated;  /* Standard syntax */
+  background-repeat-x: repeat;
+
 	padding-left:10px
 }
 
