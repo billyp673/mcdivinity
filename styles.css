@@ -77,6 +77,19 @@ background-size: cover;
   text-decoration: none;
   color: #D3D3D3;
 }
+@media (max-width: 1125px) {
+  .advert {
+    display: none;
+  }
+  .contContainer {
+    width: 100%;
+  }
+  .webContent {
+	margin-left: 0px;
+  }
+}
+
+
 .advert {
     height: -webkit-calc(100vh - 143px);
     height:    -moz-calc(100vh - 143px);
