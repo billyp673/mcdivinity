@@ -66,6 +66,10 @@ background-size: cover;
     height:    -moz-calc(100vh - 143px);
     height:      -o-calc(100vh - 143px);
     height:         calc(100vh - 143px);
+    height: -webkit-calc((var(--vh, 1vh) * 100) - 143px);
+    height:    -moz-calc((var(--vh, 1vh) * 100) - 143px);
+    height:      -o-calc((var(--vh, 1vh) * 100) - 143px);
+    height:         calc((var(--vh, 1vh) * 100) - 143px);
 
 }
 .contChild {
@@ -106,6 +110,10 @@ background-size: cover;
     height:    -moz-calc(100vh - 143px);
     height:      -o-calc(100vh - 143px);
     height:         calc(100vh - 143px);
+    height: -webkit-calc((var(--vh, 1vh) * 100) - 143px);
+    height:    -moz-calc((var(--vh, 1vh) * 100) - 143px);
+    height:      -o-calc((var(--vh, 1vh) * 100) - 143px);
+    height:         calc((var(--vh, 1vh) * 100) - 143px);
   width: 325px;
   background-color: #ffffff;
   top:128px;
@@ -120,6 +128,10 @@ width: 100%;
     height:    -moz-calc((100vh - 160px)/2);
     height:      -o-calc((100vh - 160px)/2);
     height:         calc((100vh - 160px)/2);
+    height: -webkit-calc(((var(--vh, 1vh) * 100) - 160px)/2);
+    height:    -moz-calc(((var(--vh, 1vh) * 100) - 160px)/2);
+    height:      -o-calc(((var(--vh, 1vh) * 100) - 160px)/2);
+    height:         calc(((var(--vh, 1vh) * 100) - 160px)/2);
 position: relative;
 }
 h1 {
@@ -127,4 +139,8 @@ position:absolute;
 bottom: 20px;
 left: 50px;
 font-size: 5vh;
+font-size: -webkit-calc(var(--vh, 1vh) * 5);
+font-size: -moz-calc(var(--vh, 1vh) * 5);
+font-size: -o-calc(var(--vh, 1vh) * 5);
+font-size: calc(var(--vh, 1vh) * 5);
 }
